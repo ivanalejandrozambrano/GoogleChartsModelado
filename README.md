@@ -2,9 +2,21 @@
 
 ### Link de las imagenes de docker: https://drive.google.com/drive/folders/1djDNZPWFrJHp797OlZoxPk4E-tei2YDz?usp=drive_link
 
-### Descargar las 3 imagens y des pues con el siguiente comando agregar las imagenes a docker:
+### Descargar las 2 imagens y des pues con el siguiente comando agregar las imagenes a docker:
 
   docker load < C:/nombre_del_archivo.tar
+
+### Descargar y correr el servidor WEB
+
+  docker run -p 8091:80 --name appnginx -v C:/modelado:/usr/share/nginx/html:ro -d nginx
+
+### Agregar los tres archivos a la endonde se haya vinculado con el servidor
+
+  index.html
+
+  styles.css
+
+  scripst.js
 
 ### Con el comando docker run, correr los tres contenedores
 
