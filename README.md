@@ -18,7 +18,7 @@
 
   scripst.js
 
-### Con el comando docker run, correr los tres contenedores
+### Con el comando docker run, correr las 2 imagnes anteriormente descargadas
 
 ### Configurar una red en docker para la conexion entre contenedores:
 
