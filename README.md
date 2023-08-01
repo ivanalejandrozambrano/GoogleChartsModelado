@@ -25,3 +25,8 @@
   docker network create --driver bridge nombre_red
   
   docker network connect nombre_red nombre_contenedor
+
+
+## Visualizacion por el siguiente enlace en su navegador
+
+http://localhost:8091/
